@@ -6,15 +6,15 @@ public class Study2 {
 /*
         myText.length();
         myText.charAt(intNumber);
-        myText.indexOf(word);
-        myText.lastIndexOf(word);
+        myText.indexOf(string);
+        myText.lastIndexOf(string);
         myText.toLowerCase();
         myText.toUpperCase();
         myText.substring(intNumber);
-        myText.contains(word);
-        myText.concat(word);
-        myText.equals(word);
-        myText.equalsIgnoreCase(word);
+        myText.contains(string);
+        myText.concat(string);
+        myText.equals(string);
+        myText.equalsIgnoreCase(string);
 */
 
       String myText  = "This is our string example";
@@ -28,6 +28,7 @@ public class Study2 {
 
         char charmyT = myText.charAt(12);
         char charmyI = myIndex.charAt(12);
+        myIndex.equals(charmyI);
 
         System.out.println("charmyT = " + charmyT);
         System.out.println("charmyI = " + charmyI);
